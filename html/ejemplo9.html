@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+</head>
+<body>
+    <h1>Ejemplo Formulario</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" autofocus pattern="[0-9]{1,12}" > <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente"> <br>
+
+        Num celuco: <br>
+        <input type="text" size="10" pattern="\+\d\d-\d\d\d_\d\d\d" > <br>
+
+        Fecha de nacimiento: <br>
+        <input type="text" pattern="\d{4}-\d{2}-\d{2}"> <br> <br><br><br>
+        Texto especifico xd
+        <input type="text" pattern="(Mr|Ms) \w" required><br> <br>
+        observaciones:
+        <input type="text" >
+
+
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+</form>
+</body>
+</html>
