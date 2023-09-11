@@ -5,24 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejemplo css2</title>
     <style>
-        nav{
-            background-color:#000000 ;
-        }
-        .colorfondo{
+        nav{ 
+            background-color: #040506;
+            color: white;
+        } 
+        .divUno{ 
             background-color: #008000;
+            height: 200px;
+            padding-top: 15px;
+            padding-left: 80px;
         }
+        .divDos{
+            background-color: #0000ff;
+            height: 200px;
+            padding-top: 65px;
+            padding-left: 80px;
+        }
+        a{
+            color: white;
+            style: "text-align: right";
+        }
+        button{
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+        }
+        h1 {
+            margin: 0;
+        }
+    
+</style>
+
     </style>
 </head>
 <body>
-    <nav>
-        <img src="" alt="">
+    <nav >
+        <img src="../recursos/imagenes/logo.png" alt="Logo" height="50px">
         <a href="#">GeeksforGeeks</a>
         <a href="#">Web Techcology</a>
         <a href="#">C. programmin</a>
         <a href="#">Courses</a>
+
+        <input type="text">
+        <button>Search</button>
     </nav>
 
-    <div class="colorfondo">
+    <div class="divUno">
         <h1>Web Technology</h1>
         <p>HTML stands for HyperText Markup Language. It is used to design web
             pages using a markup language. HTML is the combination of Hypertext
@@ -34,5 +62,14 @@
             format.</p>
     </div>
 
+    <div class="divDos">
+        <h1>C Programmin</h1>
+        <p>C is a procedural programming language. It was initially
+             developed by Dennis Ritchie as a system programming language 
+             to write operanting system. The main features af C language 
+             include low.level access to memory, simple set of keyword and 
+             clean style, these feature makeClanguege suitable for system 
+             like onegatine system of commiler develonment </p>
+    </div>
 </body>
 </html>
