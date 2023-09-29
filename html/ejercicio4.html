@@ -1,0 +1,25 @@
+<script>
+
+    //frase = parseInt(prompt("Digite un frase"));
+    //contadorLetraA = 0;
+    //for (let i = 0; i < frase.length; i++) {
+    //    if (frase[i] == 'a') {
+    //        contadorLetraA++;
+    //    }
+
+    //}
+    //console.log(contadorLetraA);
+    frase = prompt("Digite una frase");
+    letraBuscada = 'a';
+    letraBuscada2 = 'A';
+
+    conteo = 0;
+
+    for (let i = 0; i < frase.length; i++) {
+        if (frase.charAt(i) == 'a' || frase.charAt(i) == 'A') {
+            conteo++;
+        }
+    }
+    console.log("La letra '" + letraBuscada + "' aparece " + conteo + " veces en la frase.");
+
+</script>
