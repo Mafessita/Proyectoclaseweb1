@@ -1,0 +1,40 @@
+<script>
+    cantidadNumeroLeer = 2;
+    for (let i = 0; i < cantidadNumeroLeer; i++) {
+        numero = parseInt(prompt("Digite un numero"));
+
+        if (esNumeroPar(numero)) {
+            console.log("Es par");
+        } else {
+            console.log("Es impar");
+        }
+    }
+    function esNumeroPar(numero) {
+
+        return numero % 2 == 0;
+
+    }
+
+    //   if (numeroUno % 2 == 0) {
+    //       console.log("Es par")
+    //   } else {
+    //       console.log("Es impar")
+    //   }
+
+    //   numeroDos = 2;
+
+    //   if (numeroUno % 2 == 0) {
+    //       console.log("Es par")
+    //   } else {
+    //       console.log("Es impar")
+    //   }
+
+    //    function esNumeroPar(numero) {
+    //        resultado = false;
+    //        if (numeroUno % 2 == 0) {
+    //            resultado = true;
+    //            return resultado;
+    //        }
+    //   }
+
+</script>
