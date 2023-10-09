@@ -21,3 +21,6 @@ function adicionarNodoBody (nodo) {
     document.body.appendChild(nodo);
     
 }
+function adicionarNodoAContenedor(nodo, contenedor){
+    contenedor.appendChild(nodo);
+}
