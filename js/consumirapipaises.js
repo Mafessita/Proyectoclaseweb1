@@ -8,6 +8,7 @@ function poblarDatosPaises() {
 
         // crearListaPaises(paises);
         adicionarDatosATabla(paises) 
+        adicionarElementosSelect(paises)
     });
 
     function crearListaPaises(paises){
@@ -82,17 +83,16 @@ function poblarDatosPaises() {
 
     }
 
+    
+    }
+
+    function adicionarElementosSelect(paises) {
+        var selectPaises = document.getElementById("paises");
+
+        for (const pais of paises) {
+            var option = crearNodoTexto ('option', pais.name.common);
+            adicionarNodoAContenedor(selestPaises, option);
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-}
+    }
